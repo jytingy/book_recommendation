@@ -1,1 +1,7 @@
-Dataframe_function.py contains a function create_df where it will create a one hot encoded pandas dataframe with the rows being book titles and columns being all the possible genres. Values under the genres will be 0 if it doesn't apply to the book and 1 if it does. In main, we create two different dataframes, one dataframe being a library of books and another dataframe being books a uesr has read. We setup a user profile by finding the mean value of all the genres the user has read to find which ones they are most interested in, and based off of that, find the cosine similarity between the user profile's genre scores and each book in the library dataframe. Finally, any duplicate books in the recommended list is removed and the final list will be a list of books recommended to the user based on their read genres. ***CODE NOT OPTIMIZEZD YET
+Dataframe_function.py contains a function create_df where it will create a one hot encoded pandas dataframe with the rows being book titles and columns being all the possible genres. 
+Values under the genres will be 0 if it doesn't apply to the book and 1 if it does. In main, we create two different dataframes, one dataframe being a library of books and another 
+dataframe being books a uesr has read. We setup a user profile by finding the mean value of all the genres the user has read to find which ones they are most interested in, and based 
+off of that, find the cosine similarity between the user profile's genre scores and each book in the library dataframe. Finally, any duplicate books in the recommended list is removed 
+and the final list will be a list of books recommended to the user based on their read genres. 
+
+***CODE NOT OPTIMIZEZD YET
