@@ -4,4 +4,3 @@ dataframe being books a uesr has read. We setup a user profile by finding the me
 off of that, find the cosine similarity between the user profile's genre scores and each book in the library dataframe. Finally, any duplicate books in the recommended list is removed 
 and the final list will be a list of books recommended to the user based on their read genres. 
 
-***CODE NOT OPTIMIZEZD YET
